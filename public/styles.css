@@ -1,0 +1,130 @@
+/* GENERAL */
+body {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    background-color: #66a1b4;
+    color: #2d4851;
+    margin: 0;
+    padding: 10px;
+}
+
+/* ENCABEZADO */
+h1 {
+    text-align: center;
+}
+
+/* GIF */
+.titulo-gif {
+    width: 100px;
+    height: auto; 
+    vertical-align: middle; 
+}
+
+/* FORMULARIO */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: 3px solid #2d4851;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #08526a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #083d4f;
+    color: #ffffff;
+}
+
+/* LISTA DE TAREAS */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 400px; /* Limitar el ancho de la lista */
+}
+
+li {
+    background-color: white;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* TAREAS COMPLETADAS: fondo gris oscuro, texto blanco */
+li.completed {
+    background-color: #333;  /* Fondo gris oscuro */
+    color: white;  /* Texto blanco */
+}
+
+li span {
+    flex-grow: 1;
+    text-align: justify;
+    margin: 10px;
+}
+
+/* Tachado solo para el texto de la tarea */
+li.completed span {
+    text-decoration: line-through; 
+    color: #ccc; /* Texto más claro */
+}
+
+/* Casilla de verificación de adorno */
+li input[type="checkbox"] {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+/* BOTON ELIMINAR */
+li button {
+    background-color: #dc3545;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+li button:hover {
+    background-color: #a71818;
+    color: #ffffff;
+}
+
+/* Ajuste de espacio */
+.icon {
+    margin-left: 10px;
+}
+
+
+/* Mensaje de error*/
+#error-message {
+    display: none; /* Asegura que esté oculto inicialmente */
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: 300;
+    color: #dc3545;
+}
