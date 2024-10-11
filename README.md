@@ -32,22 +32,23 @@ El repositorio contiene los siguientes archivos:
 ## Capturas de Pantalla de la Aplicación en Funcionamiento
 
 ### Pantalla de Inicio
-![Pantalla de Inicio](assets/img/inicio.png)
+![Pantalla de Inicio](public/assets/img/inicio.png)
 
 ### Validación de Entrada
-![Validación de Entrada](assets/img/validacion.png)
+![Validación de Entrada](public/assets/img/validacion.png)
 
 ### Agregar Tareas
-![Agregar Tareas](assets/img/agregar_tareas.png)
+![Agregar Tareas](public/assets/img/agregar_tareas.png)
 
 ### Marcar Tareas como Completadas
-![Marcar Completada](assets/img/marcar_completada.png)
+![Marcar Completada](public/assets/img/marcar_completada.png)
 
-![Marcar Completada en la Base de Datos](assets/img/marcar_completada2.png)
+![Marcar Completada en la Base de Datos](public/assets/img/marcar_completada2.png)
 
 ### Eliminar Tareas
-![Eliminar Tarea](assets/img/eliminar.png)
-![Eliminar Tarea en la Base de Datos](assets/img/eliminar2.png)
+![Eliminar Tarea](public/assets/img/eliminar.png)
+
+![Eliminar Tarea en la Base de Datos](public/assets/img/eliminar2.png)
 
 ---
 
@@ -60,7 +61,7 @@ El repositorio contiene los siguientes archivos:
 
 2. **Clona este repositorio en tu máquina local**:
    ```bash
-   git clone https://github.com/ximenaDiazV/Lista-de-Tareas.git
+   git clone https://github.com/ximenaDiazV/Lista-de-tareas-con-SQLite.git
 
 3. **Abre la carpeta del proyecto**:
    - Haz clic en **File** > **Open Folder...** y selecciona la carpeta donde clonaste el repositorio.
